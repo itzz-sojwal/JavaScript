@@ -1,9 +1,17 @@
-const choices = ["Stone","Paper","Scissor"]
+generateRobotsChoice();
 
-function generateRobotChoice() {
-  const choices = ["Stone","Paper","Scissor"]
-  const i = Math.random
+function generateRobotsChoice(){
+  const choices = ["Stone","Paper","Scisoor"];
+  const i = Math.floor(Math.random() * choices.length)
+  let robotsChoice = choices[i]
+  console.log(robotsChoice)
 }
 
-const i = Math.random()
-console.log(Math.random())
+let score = 0;
+let robotsChoice = ""
+let usersChoice = ""
+
+const buttons = document.querySelectorAll(buttons)
+button.forEach(button => {
+  console.log(button)
+});
